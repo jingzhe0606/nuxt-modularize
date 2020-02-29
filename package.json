@@ -1,0 +1,49 @@
+{
+  "name": "@femessage/nuxt-modularize",
+  "version": "1.0.0",
+  "description": "A simple way to separate nuxt as you want",
+  "license": "MIT",
+  "author": "Han <xsytby1112@gmail.com>",
+  "bin": {
+    "nuxt-module": "./bin/command.js"
+  },
+  "main": "lib/module.js",
+  "repository": "https://github.com/FEMessage/nuxt-modularize",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "nuxt example",
+    "lint": "eslint --ext .js,.vue example lib test",
+    "test": "yarn lint && jest",
+    "stdver": "standard-version -m '[skip ci] chore(release): v%s'",
+    "release": "gren release --override"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "dependencies": {
+    "fast-glob": "^3.1.0",
+    "fs-extra": "^8.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@femessage/github-release-notes": "^0.19.0",
+    "@nuxt/cli": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "codecov": "latest",
+    "eslint": "latest",
+    "get-port": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt": "latest",
+    "prompts": "^2.2.1",
+    "request": "latest",
+    "request-promise-native": "latest",
+    "standard-version": "latest"
+  }
+}

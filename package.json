@@ -1,6 +1,6 @@
 {
   "name": "@zhangbintian/nuxt-modularize",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "A simple way to separate nuxt as you want",
   "license": "MIT",
   "author": "zhangbt <958142401@qq.com>",

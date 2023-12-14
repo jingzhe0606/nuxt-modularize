@@ -23,22 +23,22 @@ Use this nuxt module you can:
 
 ## Setup
 
-1. Add `@femessage/nuxt-modularize` dependency to your project
+1. Add `@zhangbintian/nuxt-modularize` dependency to your project
 
 ```bash
-yarn add @femessage/nuxt-modularize -D # or npm install @femessage/nuxt-modularize -D
+yarn add @zhangbintian/nuxt-modularize -D # or npm install @zhangbintian/nuxt-modularize -D
 ```
 
-2. Add `@femessage/nuxt-modularize` to the `modules` section of `nuxt.config.js`
+2. Add `@zhangbintian/nuxt-modularize` to the `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
     // Simple usage
-    '@femessage/nuxt-modularize',
+    '@zhangbintian/nuxt-modularize',
 
     // With options
-    ['@femessage/nuxt-modularize', { /* module options */ }]
+    ['@zhangbintian/nuxt-modularize', { /* module options */ }]
   ]
 }
 ```

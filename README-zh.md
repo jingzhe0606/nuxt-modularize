@@ -1,9 +1,9 @@
 # Nuxt-Modularize
 
 [![Build Status](https://badgen.net/travis/FEMessage/nuxt-modularize/master)](https://travis-ci.com/FEMessage/nuxt-modularize)
-[![NPM Download](https://badgen.net/npm/dm/@femessage/nuxt-modularize)](https://www.npmjs.com/package/@femessage/nuxt-modularize)
-[![NPM Version](https://badgen.net/npm/v/@femessage/nuxt-modularize)](https://www.npmjs.com/package/@femessage/nuxt-modularize)
-[![NPM License](https://badgen.net/npm/license/@femessage/nuxt-modularize)](https://github.com/FEMessage/nuxt-modularize/blob/master/LICENSE)
+[![NPM Download](https://badgen.net/npm/dm/@zhangbintian/nuxt-modularize)](https://www.npmjs.com/package/@zhangbintian/nuxt-modularize)
+[![NPM Version](https://badgen.net/npm/v/@zhangbintian/nuxt-modularize)](https://www.npmjs.com/package/@zhangbintian/nuxt-modularize)
+[![NPM License](https://badgen.net/npm/license/@zhangbintian/nuxt-modularize)](https://github.com/FEMessage/nuxt-modularize/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/FEMessage/nuxt-modularize/pulls)
 [![Automated Release Notes by gren](https://img.shields.io/badge/%F0%9F%A4%96-release%20notes-00B2EE.svg)](https://github-tools.github.io/github-release-notes/)
 
@@ -23,23 +23,23 @@
 
 ## 安装
 
-1. 添加 `@femessage/nuxt-modularize` 依赖到项目中
+1. 添加 `@zhangbintian/nuxt-modularize` 依赖到项目中
 
 ```bash
-yarn add @femessage/nuxt-modularize -D 
-# or npm install @femessage/nuxt-modularize -D
+yarn add @zhangbintian/nuxt-modularize -D 
+# or npm install @zhangbintian/nuxt-modularize -D
 ```
 
-2. 添加 `@femessage/nuxt-modularize` 到 `nuxt.config.js` 的 `modules` 属性中
+2. 添加 `@zhangbintian/nuxt-modularize` 到 `nuxt.config.js` 的 `modules` 属性中
 
 ```js
 {
   modules: [
     // Simple usage
-    '@femessage/nuxt-modularize',
+    '@zhangbintian/nuxt-modularize',
 
     // With options
-    ['@femessage/nuxt-modularize', { /* module options */ }]
+    ['@zhangbintian/nuxt-modularize', { /* module options */ }]
   ]
 }
 ```

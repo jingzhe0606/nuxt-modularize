@@ -2,7 +2,7 @@
 
 ## 📦安装依赖
 ```shell
-yarn add @femessage/nuxt-modularize -D
+yarn add @zhangbintian/nuxt-modularize -D
 ```
 
 ## 📖配置
@@ -10,7 +10,7 @@ yarn add @femessage/nuxt-modularize -D
 // 在 nuxt.config.js 中注册这个 nuxt module
 module.exports = {
 	modules: [
-  	'@femessage/nuxt-modularize'
+  	'@zhangbintian/nuxt-modularize'
   ]
 }
 ```
@@ -43,7 +43,7 @@ src/
 │       ├── const          // 存放模块的常量文件
 │       ├── components     // 通用组件
 │       ├── container      // 页面复用的部分可以放到这里
-│       ├── router.js      // 模块的路由，需要手动维护
+│       ├── module.config.js      // 模块的配置，需要手动维护
 │       ├── store          // vuex 状态管理相关文件，使用方式与 nuxt 一致
 │       └── views          // vue 视图文件
 ├── pages

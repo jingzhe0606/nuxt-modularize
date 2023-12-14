@@ -1,9 +1,9 @@
 {
-  "name": "@femessage/nuxt-modularize",
-  "version": "1.0.0",
+  "name": "@zhangbintian/nuxt-modularize",
+  "version": "0.0.10",
   "description": "A simple way to separate nuxt as you want",
   "license": "MIT",
-  "author": "Han <xsytby1112@gmail.com>",
+  "author": "zhangbt <958142401@qq.com>",
   "bin": {
     "nuxt-module": "./bin/command.js"
   },

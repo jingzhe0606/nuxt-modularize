@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/FEMessage/nuxt-modularize/compare/v0.0.10...v0.0.11) (2023-12-15)
+
+
+### Bug Fixes
+
+* 修正bug ([8ec2afa](https://github.com/FEMessage/nuxt-modularize/commit/8ec2afa))
+* 通过配置注册路由 ([4861948](https://github.com/FEMessage/nuxt-modularize/commit/4861948))
+
 ### [0.0.10](https://github.com/FEMessage/nuxt-modularize/compare/v0.0.8...v0.0.10) (2023-12-11)
 
 ### [0.0.9](https://github.com/FEMessage/nuxt-modularize/compare/v0.0.8...v0.0.9) (2023-12-11)

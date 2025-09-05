@@ -2,12 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/jingzhe0606/nuxt-modularize/compare/v0.0.8...v0.0.9) (2025-09-05)
+
+
+### Features
+
+* **module:** 优化配置生成路由逻辑 ([83a43b1](https://github.com/jingzhe0606/nuxt-modularize/commit/83a43b13968bba57f1f11c8607b5b717316b278a))
 
 
 ### Bug Fixes
 
-* 修正bug ([8ec2afa](https://github.com/FEMessage/nuxt-modularize/commit/8ec2afa))
-* 通过配置注册路由 ([4861948](https://github.com/FEMessage/nuxt-modularize/commit/4861948))
+* 修复已知 bug 并优化路由注册 ([394b321](https://github.com/jingzhe0606/nuxt-modularize/commit/394b321d6c0f51313fc903193955ef882b46f327))
+* 修正bug ([8ec2afa](https://github.com/jingzhe0606/nuxt-modularize/commit/8ec2afafd95fc776ab95260317dc17753138d73f))
+* 通过配置注册路由 ([4861948](https://github.com/jingzhe0606/nuxt-modularize/commit/4861948d57bdb39a5fc56078b77943b88d5001e4))
 
 ### [0.0.8](https://github.com/FEMessage/nuxt-modularize/compare/v0.0.7...v0.0.8) (2023-11-29)
 
